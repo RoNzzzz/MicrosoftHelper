@@ -1,0 +1,24 @@
+{
+  "name": "RoN Searcher",
+  "version": "0.1",
+  "manifest_version": 3,
+  "description": "A extension to show Search on Bing.",
+  "icons": {
+    "16": "icons/ron16.png",
+    "32": "icons/ron32.png",
+    "48": "icons/ron48.png",
+    "128": "icons/ron128.png"
+  },
+  "action": {
+    "default_popup": "popup/popup.html"
+  },
+  "content_scripts": [
+    {
+        "matches": [
+          "<all_urls>"
+        ],
+        "js": ["lib/jquery.min.js"]
+    }
+]
+
+}

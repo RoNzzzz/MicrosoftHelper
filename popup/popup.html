@@ -1,0 +1,59 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>RoN Search</title>
+    <style>
+      *{
+        background: rgb(2,0,36);
+        background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 43%, rgba(45,98,108,1) 100%);
+      }body{
+      width: 300px;
+      }
+      
+      .head h1,h2{
+        text-align: center;
+        margin: 0%;
+        
+      }
+      .head h1{
+        color: aliceblue;
+      }
+      .head h2{
+        color: rgb(216, 249, 0);
+      }
+      .form{
+        color: azure;
+      }
+      .form input{
+        color: azure;
+      }
+      button{
+        color: azure;
+      }
+      .alert{
+        color:crimson;
+      }
+      input{
+    width: 50px;
+} 
+    </style>
+  </head>
+  <body>
+    <div class="head">
+      <h1>Welcome to RoN Search</h1>
+      <h2>Searcher for Bing</h2>
+    </div>
+    <br>
+    <div class="form">
+      <form id="form">
+      <label>Starting Letter:</label> <input type="text" id="start" name="start"> &nbsp;
+      <label></label>No. of Searches: </label><input type="number" id="number" name="number">
+      <br>  <button id="formSubmit">Go</button>
+    </form>
+    </div>
+    <div class="alert">
+      <p id="gen"></p>
+    </div>
+    <script src="popup.js"></script>
+  </body>
+</html>

@@ -1,6 +1,6 @@
 {
-  "name": "RoN Searcher",
-  "version": "0.1",
+  "name": "Microsoft Helper",
+  "version": "0.2",
   "manifest_version": 3,
   "description": "A extension to show Search on Bing.",
   "icons": {
